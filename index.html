@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ghid metodologic pentru integrarea valorilor creștine în disciplinele școlare</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #fffbe6;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #ffe066;
+      color: #5c3b1e;
+      padding: 20px;
+      text-align: center;
+      font-size: 1.7em;
+      font-weight: bold;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    footer {
+      background-color: #ffeb99;
+      color: #5c3b1e;
+      padding: 10px;
+      text-align: center;
+      font-size: 0.9em;
+    }
+    nav {
+      background-color: #fff0b3;
+      padding: 20px;
+    }
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    nav ul li {
+      background: linear-gradient(to bottom, #fff6cc, #ffe066);
+      padding: 14px 28px;
+      border-radius: 30px;
+      box-shadow: 4px 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, background-color 0.3s ease;
+      cursor: pointer;
+    }
+    nav ul li:hover {
+      transform: translateY(-5px);
+      background-color: #fff3a1;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #4b2f1c;
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+    main {
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .card {
+      background-color: #fff8dc;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      padding: 30px;
+      max-width: 800px;
+      text-align: center;
+    }
+    .image-container {
+      margin-top: 20px;
+    }
+    .image-container img {
+      width: 120px;
+      height: auto;
+    }
+    .section {
+      margin-top: 50px;
+      max-width: 900px;
+      background-color: #fffbe0;
+      border-radius: 12px;
+      padding: 30px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+    .section h3 {
+      color: #5a381f;
+      margin-bottom: 20px;
+    }
+    .section p {
+      text-align: left;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Ghid metodologic pentru integrarea valorilor creștine în disciplinele școlare
+  </header>
+
+  <audio id="soundEffect">
+    <source src="short-piano-jingle-262586.mp3" type="audio/mpeg">
+  </audio>
+
+  <nav>
+    <ul> <li onclick="playSound()"><a href="pagina_romana.html">Limba romana</a></li>
+      <li onclick="playSound()"><a href="#istorie">Istorie</a></li>
+      <li onclick="playSound()"><a href="#geografie">Geografie</a></li>
+      <li onclick="playSound()"><a href="#matematica">Matematică</a></li>
+      <li onclick="playSound()"><a href="#fizica">Fizică</a></li>
+      <li onclick="playSound()"><a href="#economie">Economie</a></li>
+      <li onclick="playSound()"><a href="#psihologie">Psihologie</a></li>
+      <li onclick="playSound()"><a href="#sociologie">Sociologie</a></li>
+      <li onclick="playSound()"><a href="#antreprenoriala">Educație antreprenorială</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="card">
+      <h2>Bine ai venit!</h2>
+      <p>Acest soft educațional este un ghid interactiv dedicat profesorilor care doresc să integreze valori creștine în predarea disciplinelor din planul-cadru. Alege disciplina dorită din meniu și explorează lecțiile model, activitățile și reflecțiile propuse pentru fiecare clasă.</p>
+      <div class="image-container">
+        <img src="Boy_Praying.gif" alt="Copil în rugăciune">
+      </div>
+    </div>
+
+    
+  </main>
+
+  <footer>
+    Realizat de: Maria Magdalena Dorcioman
+  </footer>
+
+  <script>
+    function playSound() {
+      const audio = document.getElementById('soundEffect');
+      audio.play();
+    }
+  </script>
+</body>
+</html>
